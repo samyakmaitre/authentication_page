@@ -6,11 +6,3 @@ Please confirm your email by clicking on the following link.
 
 Confirmation Link: http:{{domain}}{% url 'activate' uidb64=uid token=token %}
 {% endautoescape %}
-
-{% autoescape on %}
-<p>This text is auto-escaped.</p>
-{% endautoescape %}
-
-{% autoescape off %}
-<p>This text is not auto-escaped.</p>
-{% endautoescape %}
